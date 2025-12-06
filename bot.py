@@ -10,7 +10,7 @@ import mysql.connector
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="your_mysql_password",  # 👈 Yaha apna MySQL password daalo
+    password="your_mysql_password"
     database="school_db"
 )
 cursor = db.cursor()
